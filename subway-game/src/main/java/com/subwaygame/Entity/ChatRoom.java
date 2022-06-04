@@ -1,6 +1,7 @@
 package com.subwaygame.Entity;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.subwaygame.constant.MessageType;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.web.socket.TextMessage;

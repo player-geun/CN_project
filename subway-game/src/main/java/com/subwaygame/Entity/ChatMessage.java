@@ -1,5 +1,6 @@
 package com.subwaygame.Entity;
 
+import com.subwaygame.constant.MessageType;
 import lombok.Getter;
 import lombok.Setter;
 
