@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
   <title>채팅 서비스</title>
@@ -17,7 +19,7 @@
 
 <body>
 
-<div class="container">
+<div layout:fragment="content" class="container">
 
   <form class="form-signing" action="/room/new" th:object="${form}" method= "get">
     <h2 class="form-signing-heading">새로운 채팅방 생성</h2>
