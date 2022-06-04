@@ -1,10 +1,10 @@
-package com.subwaygame.controller;
+package com.subwaygame.dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class ChatRoomForm {
+public class ChatRoomFormDto {
     private String name;
 }
